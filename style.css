@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #2e86c1;
+    --secondary-color: #f4f6f7;
+    --text-color: #2c3e50;
+    --font-size-header: 32px;
+    --font-size-paragraph: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+
+header, section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: var(--font-size-header);
+    color: var(--primary-color);
+    text-align: center;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    color: white;
+}
+
+
+section h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+    text-align: left;
+}
+
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+.skills li, .software li, .interests li, .experience li, .projects li, .languages li, .references li {
+    font-size: var(--font-size-paragraph);
+    color: var(--text-color);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+}
